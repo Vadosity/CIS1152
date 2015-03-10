@@ -1,16 +1,12 @@
 <?php
 
 /**
- * Lab 2, Arithmatic Lab
+ * Lab 4, Form and Post Lab
  *
  * This lab focuses on your understanding of arithmatic.
  *
  * @version 1.0
-<<<<<<< HEAD
- * @author Korey Witham <ikoreyvt@gmail.com>
-=======
  * @author YOUR_NAME <YOUR_EMAIL_ADDRESS@vtc.edu>
->>>>>>> upstream/master
  * @since 20150120
  */
 
@@ -27,8 +23,7 @@ define('GRAVITY', 9.8);
 
 function truncateFloat($float_value)
 {
-$truncated_value = ($float_value * 100) \ 100;
-echo $truncated_value;
+
 }
 
 /**
@@ -36,8 +31,7 @@ echo $truncated_value;
  */
 function farenheit2Kelvin($degrees_f)
 {
-$degrees_k = (($degrees_f - 32) * (5 / 9)) + 273.15;
-echo $degrees_k;
+
 }
 
 /**
@@ -45,8 +39,7 @@ echo $degrees_k;
  */
 function dodecahedronVolume($area)
 {
-$dodecahedron_volume = ((15 + (7 + sqrt(5)) / 4) * pow($area, 3);
-echo $dodecahedron_volume;
+
 }
 
 /**
@@ -54,15 +47,17 @@ echo $dodecahedron_volume;
  */
 function impactVelocity($height)
 {
-$velocity = sqrt(2 * GRAVITY * $height);
-echo $velocity;
+
 }
 
-truncateFloat(5.65626233254);
-echo "<br>";
-farenheit2Kelvin(32);
-echo "<br>"
-dodecahedronVolume(15);
-echo "<br>"
-impactVelocity(180);
+?>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class 4 Lab</title>
+</head>
+<body>
+
+</body>
+</html>
