@@ -1,0 +1,18 @@
+Put myself into the database:
+INSERT INTO `employees`.`employees` (`emp_no`, `birth_date`, `first_name`, `last_name`, `gender`, `hire_date`) VALUES ('666666', '1994-11-18', 'Korey', 'Witham', 'M', '2015-04-14');
+
+Give myself a title:
+INSERT INTO `employees`.`titles` (`emp_no`, `title`, `from_date`, `to_date`) VALUES ('666666', 'King of Ducks', '1994-11-18', '9999-01-01');
+
+Give myself a salary:
+INSERT INTO `employees`.`salaries` (`emp_no`, `salary`, `from_date`, `to_date`) VALUES ('666666', '65000', '2006-05-19', '9999-01-01');
+
+Put myself into a department:
+INSERT INTO `employees`.`departments` (`dept_no`, `dept_name`) VALUES ('1337', 'Hackerz');
+
+Make myself a department employee:
+INSERT INTO `employees`.`dept_emp` (`emp_no`, `dept_no`, `from_date`, `to_date`) VALUES ('666666', '1337', '2003-05-19', '9999-01-01');
+
+Make myself a department manager:
+INSERT INTO `employees`.`dept_manager` (`dept_no`, `emp_no`, `from_date`, `to_date`) VALUES ('1337', '666666', '2003-05-19', '9999-01-01');
+
