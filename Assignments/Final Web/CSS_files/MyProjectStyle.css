@@ -1,0 +1,40 @@
+body{background-color: #003900;
+}
+a{color: #ffffff;}
+a:link{text-decoration: none; color: #ffffff;}
+a:visted{text-decoration: none; color: #ffffff;}
+a:hover{text-decoration: underline; color: #ff0000;}
+a:active{text-decoration:underline; color: #ff0000;}
+
+#imgHome{margin-left: auto;
+margin-right: auto;
+max-width: 800px;}
+
+#homePageTitle{text-align:center;
+font-size: 40px;
+color: #ffffff;
+text-shadow: 5px 2px #000000;
+}
+
+#homePageContent{background-color:#339933;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+
+.navigation{list-style-type: none;
+text-align: center;
+margin-top: 15px;
+}
+.navigationElements{display: inline;
+padding-right: 20px;}
+
+#linkpictures{ 
+margin-top: 85px;
+width: 100%;
+min-width: 1350px; 
+text-align: center;
+text-align: top;}
+
+.imgpad {padding-right: 50px;}
